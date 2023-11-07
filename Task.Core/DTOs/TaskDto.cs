@@ -10,8 +10,10 @@ namespace Task.Core.DTOs
     {
         public int id { get; set; }
         public string title { get; set; }
-        public DateTime deadline { get; set; }
+        public string startDate { get; set; }
+        public string deadline { get; set; }
         public int categorie { get; set; }
         public int user { get; set; }
+        public bool End_task { get; set; }
     }
 }

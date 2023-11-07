@@ -25,6 +25,7 @@ namespace Task.Api
             //Repositories
             services.AddTransient<ILoginRepository, LoginRepository>();
             services.AddTransient<ICategorieRepository, CatagorieRepository>();
+            services.AddTransient<ITaskRepository, TaskRepository>();
 
 
             services.AddEndpointsApiExplorer();
